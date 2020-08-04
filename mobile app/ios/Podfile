@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Gimonii' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Gimonii
+  pod 'Stripe', '~> 14.0.0'
+  # pod 'tipsi-stripe', :path => '../node_modules/tipsi-stripe'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  pod 'RNSVG', :path => '../node_modules/react-native-svg'
+
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+
+end
